@@ -81,7 +81,7 @@ function Header() {
 
         <header className="fixed top-0 left-0 w-full z-50 transition-all duration-300">
             {/* Top header—hidden when scrolled */}
-            <div className={`bg-white w-full transition-opacity duration-300 ${scrolled ? 'opacity-0 h-0 overflow-hidden' : 'opacity-100 h-auto'}`}>
+            <div className={`bg-white-full transition-opacity duration-300 ${scrolled ? 'opacity-0 h-0 overflow-hidden' : 'opacity-100 h-auto'}`}>
                 <div className="container mx-auto flex items-center justify-between py-2 px-4">
                     <Link to="/" className="text-3xl font-bold text-red-700">Vanguard</Link>
                     {/* Optional top elements */}
@@ -94,7 +94,7 @@ function Header() {
                 <div className="container mx-auto flex items-center justify-between py-2 px-4">
                     <div className="flex items-center gap-4">
                         <Link to="/" className="text-3xl font-bold text-red-700">Vanguard</Link>
-                        <Link to="/" className="text-gray-500 border-l pl-2 ml-2">Personal investors</Link>
+                        <Link to="/" className="text-red-500 border-l pl-2 ml-2 ">Personal investors</Link>
                     </div>
 
                     <div className="flex items-center gap-4">
