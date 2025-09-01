@@ -1,5 +1,5 @@
 import React from 'react'
-import CmnCtaSec from '../components/cmnCtaSec';
+import CmnCtaSec from './CmnCtaSec';
 
 const AdviceCmnCtaCon = {
     heading: "Unsure whether you need a financial advisor? Take our quiz to see.",
