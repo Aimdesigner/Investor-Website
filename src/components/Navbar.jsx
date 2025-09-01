@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ scrolled }) => {
 
     const navLinks = [
         { to: "/personal-investors", label: "Personal investors" },
@@ -10,17 +10,17 @@ const Navbar = () => {
         { to: "/institutional", label: "Institutional investors" }
     ];
 
+
+
     return (
 
-        <div className="container">
-            <nav className="hidden md:flex space-x-6 text-sm font-medium text-gray-800">
-                {navLinks.map(link => (
-                    <Link key={link.to} to={link.to} className="hover:text-red-700">
-                        {link.label}
-                    </Link>
-                ))}
-            </nav>
-        </div>
+        <nav className="hidden md:flex space-x-6 text-sm font-medium text-gray-800 transition-discrete duration-300" style={{ marginLeft: scrolled ? '191px' : '0px',}}>
+            {navLinks.map(link => (
+                <Link key={link.to} to={link.to} className="hover:text-red-700">
+                    {link.label}
+                </Link>
+            ))}
+        </nav>
 
     )
 }
