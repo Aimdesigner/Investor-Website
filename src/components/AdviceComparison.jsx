@@ -1,5 +1,5 @@
 import { Check } from "lucide-react"; // icon library
-import adviceOptions from "../data/adviceOptions";
+import adviceOptions from "../data/AdviceOptions";
 
 export default function AdviceComparison() {
     return (
