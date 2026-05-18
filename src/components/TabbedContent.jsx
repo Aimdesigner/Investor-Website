@@ -11,7 +11,7 @@ const TabbedContent = ({ heading, tabs }) => {
   };
 
   return (
-    <section className="mx-auto px-6 pb-12 sm:px-0 sm:pb-0">
+    <section className="mx-auto px-6 pb-12 sm:px-0 pb-[70px]">
       <div className="container">
         {/* Section Heading */}
         <h2 className="text-4xl font-bold text-center mb-8">{heading}</h2>

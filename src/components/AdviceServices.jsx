@@ -9,7 +9,7 @@ const AdviceServices = () => {
         {
             title: "Digital Advisor",
             heading: "Vanguard Digital Advisor®",
-            subInfo: `$1002 minimum to qualify. Annual advisory fee: Approximately $15-$16 per $10,000 invested.3`,
+            subInfo: (<>$1002 minimum to qualify. Annual advisory fee: Approximately $15-$16 per $10,000 invested.<sup>3</sup></>),
             description: "A robo-advisor is an automated digital platform that provides financial planning and investment management services. Our robo-advisor gives you:",
             image: digitalImg,
             points: [
@@ -24,8 +24,7 @@ const AdviceServices = () => {
         {
             title: "Personal Advisor",
             heading: "Vanguard Digital Advisor®",
-            subInfo: `$50,000 minimum to qualify.
-Annual advisory fee: Approximately $30-$31 per $10,000 invested.3`,
+            subInfo: (<>$50,000 minimum to qualify. Annual advisory fee: Approximately $30-$31 per $10,000 invested.<sup>3</sup></>),
             description: "A hybrid advisor combines automated investment management with access to human financial advisors for personalized guidance. This hybrid service offers you:",
             image: personalImg,
             points: [
@@ -40,8 +39,11 @@ Annual advisory fee: Approximately $30-$31 per $10,000 invested.3`,
         {
             title: "Personal Advisor Select",
             heading: "Vanguard Personal Advisor Select™",
-            subInfo: `$500,000 minimum to qualify.
-                      Annual advisory fee: No more than $30 per $10,000 invested.4`,
+            subInfo: (
+                <>
+                  $500,000 minimum to qualify. Annual advisory fee: No more than $30 per $10,000 invested. <sup>4</sup>
+                </>
+              ),
             description: "A personal financial advisor is a professional who provides customized financial guidance and planning based on an individual's specific goals and financial situation. With this option, you'll experience:",
             image: personalAdvisorSelect,
             points: [
@@ -57,8 +59,7 @@ Annual advisory fee: Approximately $30-$31 per $10,000 invested.3`,
         {
             title: "Wealth Management",
             heading: "Vanguard Personal Advisor Wealth Management™",
-            subInfo: `$5M+ minimum to qualify.
-Annual advisory fee: No more than $30 per $10,000 invested.<sup>4</sup>`,
+            subInfo: (<>$5M+ minimum to qualify. Annual advisory fee: No more than $30 per $10,000 invested.<sup>4</sup></>),
             description: "Wealth management is a comprehensive financial service that combines investment advice, estate planning, tax services, and other financial strategies to grow and protect an individual's wealth. To support the complexity of your higher wealth, you'll receive:",
             image: wealthManagement,
             points: [
